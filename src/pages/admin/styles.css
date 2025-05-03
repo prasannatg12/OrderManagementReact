@@ -1,0 +1,67 @@
+.mainHeading, .insightsTile {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   
+    justify-content: space-evenly;
+    /* height: 85vh; */
+    margin:40px 0px;
+    align-items: center;
+}
+
+.thinHorizontalLine{
+    border-top: 1px solid rgba(255, 140, 0, 0.5);
+}
+
+.mainHeadingTile {
+    /* border: 1px solid rgba(255, 140, 0, 0.5); */
+    padding: 5px;
+    width: 25%;
+    border-radius: 15px;
+    color: rgb(255, 140, 0, 1);
+    text-shadow: 0px 0px 10px white;
+    background-image: linear-gradient( rgba(255, 140, 0, 0.1), white);
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.svgStyleMainHeading {
+    position: absolute;
+    scale: 4;
+    opacity: 0.25;
+    margin-top: 50px;
+    margin-left: -15px;
+    rotate: 348deg;
+    /* box-shadow: -1px 1px 10px rgba(140, 50, 178, 0.5); */
+    /* background: rgba(140, 50, 178, 0.5); */
+}
+
+.mainHeadingButton {
+    color: rgb(255, 140, 0, 1) !important;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.tile {
+    background-image: linear-gradient( rgba(255, 140, 0, 1), white);
+     /* rgba(200,200,200,0.35); */
+    width: 14%;
+    text-align: left;
+    font-size: 12px;
+    height: 60px;
+    color: #111;
+    /* // rgba(255, 213, 228,1); */
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-content: space-between;
+}
+
+.tileSpan {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}

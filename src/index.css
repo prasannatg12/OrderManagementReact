@@ -1,0 +1,28 @@
+
+/* @font-face {
+  font-family: 'NotoSans-Regular';
+  src: local('NotoSans-Regular'), url(./fonts/Noto_Sans/static/NotoSans-Regular.ttf) format('truetype');
+  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap')
+} */
+
+/* @font-face {
+  font-family: 'NotoSans-Italic'; */
+  /* src: local('NotoSans-Italic'), url(./fonts/Noto_Sans/static/NotoSans-Italic.ttf) format('truetype'); */
+  /* src: url('https://fonts.googleapis.com/css?family=Bungee+Inline')
+} */
+
+body {
+  margin: 0;
+  /* font-family: NotoSans-Italic; */
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+}

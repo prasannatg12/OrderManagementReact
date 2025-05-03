@@ -1,0 +1,32 @@
+.rowOrderedItems {
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid lightgreen;
+    padding: 5px 10px;
+    align-items: center;
+}
+.rowOrderedItemsHeader {
+    position: relative;
+    display: flex;
+    border-bottom: 2px solid lightgreen;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+.divOrderEmpty{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 30px;
+    color: rgb(25, 118, 210);
+}
+
+.displayNone {
+    display: none;
+}
+
+.deliverButton {
+    margin-top: 5px !important;
+    margin-left: -10px !important;
+    margin-right: 10px !important;
+}
