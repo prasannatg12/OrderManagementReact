@@ -26,7 +26,7 @@ import TextField from '@mui/material/TextField';
 import axios from "axios";
 import { CircularProgress, Input, Snackbar } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import ReactWordcloud from "react-wordcloud";
+// import ReactWordcloud from "react-wordcloud";
 import { UseGetTrendingOrders } from "../../reducers/useGetOrders";
 //#endregion
 

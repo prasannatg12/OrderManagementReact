@@ -22,10 +22,10 @@
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0",
+    "react-dropdown": "^1.11.0",
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.4.0",
-    "react-scripts": "5.0.1",
-    "react-wordcloud": "^1.2.7"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
